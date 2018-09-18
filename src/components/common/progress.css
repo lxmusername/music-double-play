@@ -1,0 +1,10 @@
+.progress{
+    display: flex;
+    height: 3px;
+    background:#55b2c9;
+}
+.progress div{
+    width: 0;
+    height: 100%;
+    background:#03cdff;
+}

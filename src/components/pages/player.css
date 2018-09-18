@@ -1,0 +1,68 @@
+
+li{
+    margin: 10px;
+}
+a{
+    color: rgb(255, 0, 149);
+}
+.cover {
+    height: 100px;
+    padding: 10px 0;
+}
+.cover h5{
+    height: 40px;
+}
+.cover img{
+    width:80px;
+    height: 80px;
+    border-radius: 50%
+}
+.imgRotate{
+    animation: rotateDeg 5s infinite linear;
+}
+@keyframes rotateDeg {
+    from{
+        transform: rotate(0deg)
+    }
+    to{
+        transform: rotate(360deg)
+    }
+}
+.cover>div{
+   height: 100px;
+}
+
+.time-volume{
+    display: flex;
+}
+.time-volume>p{
+    margin-right: 10px;
+}
+
+.music-volume{
+    flex: 1;
+    display: inline-flex;
+}
+.music-volume span{
+    float: left;
+    width: 40px;
+}
+.music-volume .progress{
+    margin-top: 13px;
+    width: 100px;
+}
+
+.play-ctr {
+    text-align: center;
+    padding: 10px 0;
+}
+.play-ctr span{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    background: rgb(94, 7, 7);
+    margin: 0 20px;
+}
+

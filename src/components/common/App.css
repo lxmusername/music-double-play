@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 40;
+    user-select: none;
+}
+.App{
+    width: 600px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 50px auto;
+    box-shadow: 0 0 20px #8d0a0a;
+    display: flex;
+    flex-direction: column;
+}
+
+/* 头部样式 */
+.music-head{
+    padding: 20px 50px;
+    background: #ecdfdf;
+    color: #8d0a0a;
+    font-size: 1.5rem;
+    box-shadow: 0 2px 5px #3e0e03;
+}
+.music-head img{
+    width: 60px;
+    height:60px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 2rem;
+    border: 2px solid #3e0e03;
+}
+
+
+
+
+
+
+
+
+/* 主体样式 */
+.music-body{
+    flex: 1;
+    background: rgba(168, 12, 103, 0.3);
+    color: #fff;
+    padding: 20px;
+}

@@ -1,0 +1,20 @@
+
+
+.item-list{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    color: #3e0e03;
+    line-height: 30px;
+    border-bottom: 1px dashed #3e0e03;
+}
+.item-list a{
+    flex: 1;
+    white-space: nowrap;
+    color: #3e0e03;
+    font-size:14px;
+}
+.item-list >span{
+    margin: 0 10px;
+    font-size: 14px;
+}
